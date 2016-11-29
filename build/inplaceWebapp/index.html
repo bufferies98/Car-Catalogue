@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="jquery.twbsPagination.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<title>The best car shop !!!</title>
+</head>
+<body>
+    <a href="addCar.html">Add a car</a>
+	<div class="ui-widget">
+        <h3>Filters:</h3></br>
+  		<label for="modelFilter">Model </label>
+  		<input id="modelFilter">
+    <br>
+    <br>
+    <br>
+        <label for="topSpeedFilter">Top Speed </label>
+        <input id="topSpeedFilter">
+    <br>
+    <br>
+    <br>
+        <label for="horsePowerFilter">Horsepower </label>
+        <input id="horsePowerFilter">
+    <br>
+    <br>
+    <br>
+        <label for="yearOfManufactureFilter">Year</label>
+        <input id="yearOfManufactureFilter">
+    <br>
+    <br>
+    <br>
+        <button id="filterButton">Filter</button>
+    <br>
+    <br>
+    <br>
+	</div>
+    <ul id="pagination-list" class="pagination"></ul>
+    <br>
+    <br>
+    <br>
+	<table id="carsTable">
+		<thead>
+			<th>Model</th>
+			<th>Top Speed</th>
+			<th>Horsepower</th>
+			<th>Year of manufacture</th>
+		</thead>
+		<tbody id="carsTableBody">
+		</tbody>
+	</table>
+</body>
+</html>

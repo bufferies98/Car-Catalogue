@@ -1,0 +1,31 @@
+#carsTable {
+    border-collapse: collapse;
+}
+
+#carsTable, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li.active a{
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul.pagination li:hover:not(.active) a {background-color: #ddd;}
